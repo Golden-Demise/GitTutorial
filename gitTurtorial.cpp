@@ -8,5 +8,6 @@ bool Guess(int number) {
 }
 
 int main() {
+	Guess(1);
 
 }
