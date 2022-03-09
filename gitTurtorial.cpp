@@ -8,6 +8,11 @@ bool Guess(int number) {
 }
 
 int main() {
-	Guess(1);
+	int guess;
+	do {
+		std::cin >> guess;
+	} while (!Guess(guess));
+
+	return 0;
 
 }
